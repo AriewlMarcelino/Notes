@@ -1,0 +1,28 @@
+<!-- botão de voltar -->
+<div class="conteiner-fluid">
+	<button type="button" class="btn btn-dark shadow-lg p-3 mb-5 bg-body-black" id="btn-add-notas" >
+    <a class="nav-link text-white text-uppercase" href="/"><i class="bi bi-arrow-left-square p-2"></i>  voltar home</a>
+  </li>
+</button>
+</div>
+<!-- Input de titulo da nota -->
+<h1>Adicione uma nota:</h1>
+<div class="form-floating mb-3">
+  <input type="email" class="form-control" id="titulo" name="titulo" placeholder="name@example.com">
+  <label for="titulo">Adicione o titulo da nota:</label>
+</div>
+
+<form action="/notes" method="post">
+<!-- Input de commentarios -->
+<div class="form-floating">
+  <textarea class="form-control" placeholder="Leave a comment here" id="descricao" name="descricao" style="height: 100px"></textarea>
+  <label for="descricao">Descreva a sua nota:</label>
+</div>
+<!-- Botão de Enviar  -->
+<div class="conteiner-fluid">
+	<button type="submit" class="btn btn-dark shadow-lg p-3 m-4  bg-body-black" id="btn-enviar-notas" >
+    <a class="nav-link text-white text-uppercase" href="/">Adicionar nota</a>
+  </li>
+</button>
+</form>
+

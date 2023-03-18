@@ -1,0 +1,8 @@
+- Pasta public:
+Onde armazenamos todos os arquivos de HTM, CSS, JvaScript e Algumas imagens
+
+- Pasta Views:
+Onde poderemos armazenar as paginas que serão apresentadas ao usuario.
+
+- Pasta Layout:
+Onde colocamos alguns trehos da pagina que se repete:
